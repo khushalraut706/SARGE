@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: sar_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: sar_platform
+    networks:
+      - sar_network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: sar_backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongodb:27017/sar_platform
+      - JWT_SECRET=change_this_in_production_at_least_32_chars
+      - JWT_EXPIRES_IN=7d
+      - FRONTEND_URL=http://localhost:3000
+    depends_on:
+      - mongodb
+    networks:
+      - sar_network
+    volumes:
+      - ./backend/uploads:/app/uploads
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: sar_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - sar_network
+
+volumes:
+  mongo_data:
+
+networks:
+  sar_network:
+    driver: bridge

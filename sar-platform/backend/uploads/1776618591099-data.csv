@@ -1,0 +1,54 @@
+"Transaction ID
+Customer Name
+Account No
+Amount
+Type
+Date
+TXN001
+John Doe
+1234567890
+120000
+Transfer
+2026-04-01
+TXN002
+John Doe
+1234567890
+50000
+Withdrawal
+2026-04-02
+TXN003
+John Doe
+1234567890
+80000
+Deposit
+2026-04-02
+TXN004
+John Doe
+1234567890
+200000
+Transfer
+2026-04-03
+TXN005
+John Doe
+1234567890
+15000
+POS Payment
+2026-04-03
+TXN006
+John Doe
+1234567890
+95000
+Transfer
+2026-04-04
+TXN007
+John Doe
+1234567890
+300000
+Transfer
+2026-04-05
+TXN008
+John Doe
+1234567890
+2000
+ATM Withdrawal
+2026-04-05"

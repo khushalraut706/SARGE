@@ -1,0 +1,26 @@
+transaction_id,date,amount,type,sender_name,sender_account,sender_bank,sender_country,receiver_name,receiver_account,receiver_bank,receiver_country,description,channel
+TXN-2024-001,2024-11-01T09:15:00,9500,cash,John Martinez,ACCT-4821-JM,First National Bank,US,,,,,Cash deposit - just under threshold,branch
+TXN-2024-002,2024-11-01T11:30:00,9200,cash,John Martinez,ACCT-4821-JM,First National Bank,US,,,,,Cash deposit - business receipts,branch
+TXN-2024-003,2024-11-01T14:00:00,9800,cash,John Martinez,ACCT-4821-JM,First National Bank,US,,,,,Cash deposit - personal,atm
+TXN-2024-004,2024-11-02T10:00:00,50000,wire,John Martinez,ACCT-4821-JM,First National Bank,US,Shell Corp Ltd,INTL-99221,Offshore Bank,IR,Investment transfer,online
+TXN-2024-005,2024-11-03T02:15:00,15000,transfer,John Martinez,ACCT-4821-JM,First National Bank,US,Quick LLC,ACCT-5599,Chase,US,Consulting payment,online
+TXN-2024-006,2024-11-03T02:45:00,12000,transfer,John Martinez,ACCT-4821-JM,First National Bank,US,ABC Holdings,ACCT-7712,Wells Fargo,US,Services rendered,online
+TXN-2024-007,2024-11-03T03:10:00,18000,wire,John Martinez,ACCT-4821-JM,First National Bank,US,Foreign Entity SA,INTL-34551,Panama Bank,PA,Business expense,online
+TXN-2024-008,2024-11-05T09:00:00,100000,wire,John Martinez,ACCT-4821-JM,First National Bank,US,Crypto Exchange,CRYPTO-001,,RU,Crypto purchase,online
+TXN-2024-009,2024-11-06T15:30:00,5000,deposit,Alice Chen,ACCT-9901-AC,First National Bank,US,,,,,Regular payroll,branch
+TXN-2024-010,2024-11-07T10:00:00,250,withdrawal,Alice Chen,ACCT-9901-AC,First National Bank,US,,,,,ATM withdrawal,atm
+TXN-2024-011,2024-11-08T09:15:00,1200,transfer,Alice Chen,ACCT-9901-AC,First National Bank,US,Landlord Inc,ACCT-2211,Chase,US,Monthly rent,online
+TXN-2024-012,2024-11-10T11:00:00,75000,wire,Bob Wilson,ACCT-7733-BW,First National Bank,US,Investment Fund,FUND-551,Swiss Bank,CH,Investment - round amount,wire
+TXN-2024-013,2024-11-10T11:20:00,50000,wire,Bob Wilson,ACCT-7733-BW,First National Bank,US,Real Estate Corp,RE-991,Barclays,KP,Property investment,wire
+TXN-2024-014,2024-11-10T11:40:00,25000,wire,Bob Wilson,ACCT-7733-BW,First National Bank,US,Tech Ventures,TV-441,HSBC,SY,Venture capital,wire
+TXN-2024-015,2024-11-12T08:00:00,9900,cash,Carlos Rivera,ACCT-1144-CR,First National Bank,US,,,,,Cash deposit,branch
+TXN-2024-016,2024-11-12T13:00:00,9700,cash,Carlos Rivera,ACCT-1144-CR,First National Bank,US,,,,,Cash deposit,branch
+TXN-2024-017,2024-11-13T09:00:00,9400,cash,Carlos Rivera,ACCT-1144-CR,First National Bank,US,,,,,Cash deposit,atm
+TXN-2024-018,2024-11-15T10:00:00,200,transfer,Sarah Johnson,ACCT-3355-SJ,First National Bank,US,Netflix,,,US,Subscription,online
+TXN-2024-019,2024-11-16T14:00:00,500000,crypto,Crypto Holdings LLC,CRYPTO-BTC-441,,US,Dark Exchange,ANON-551,,RU,BTC conversion,crypto
+TXN-2024-020,2024-11-17T01:30:00,45000,transfer,Unknown Entity,ACCT-0099-UE,First National Bank,US,Multiple Accounts,ACCT-MULTI,Various,CU,Dispersal payment,online
+TXN-2024-021,2024-11-18T09:00:00,800,withdrawal,Alice Chen,ACCT-9901-AC,First National Bank,US,,,,,ATM,atm
+TXN-2024-022,2024-11-19T10:00:00,300,transfer,Alice Chen,ACCT-9901-AC,First National Bank,US,Utility Co,,US,Electricity bill,online
+TXN-2024-023,2024-11-20T11:00:00,1000000,wire,Mega Corp International,CORP-ACCT-999,First National Bank,US,Holding Company,HOLD-551,Luxembourg Bank,LU,Corporate transfer,wire
+TXN-2024-024,2024-11-21T10:00:00,9100,cash,John Martinez,ACCT-4821-JM,First National Bank,US,,,,,Cash - personal,branch
+TXN-2024-025,2024-11-22T09:00:00,150,withdrawal,Sarah Johnson,ACCT-3355-SJ,First National Bank,US,,,,,Coffee money,atm
