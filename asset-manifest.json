@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SARGE/static/css/main.3b0d1bff.css",
+    "main.js": "/SARGE/static/js/main.db42db08.js",
+    "index.html": "/SARGE/index.html",
+    "main.3b0d1bff.css.map": "/SARGE/static/css/main.3b0d1bff.css.map",
+    "main.db42db08.js.map": "/SARGE/static/js/main.db42db08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b0d1bff.css",
+    "static/js/main.db42db08.js"
+  ]
+}
